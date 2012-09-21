@@ -1,0 +1,60 @@
+﻿
+.pagetitle{width:725px;height: 108px; background: url(images/ad5.png) no-repeat scroll 0 0 transparent;text-indent: -9999px; margin:10px 0;}
+.pagemain{font-family: Microsoft Yahei, Verdana;}
+.pagemain p{ line-height:20px;}
+.pagemain h3{ line-height:30px;}
+.pagemain dl{ border-bottom:1px dashed #D0D0D0; margin-bottom:10px;}
+.pagemain dl dt{ border-bottom:1px solid #D8D8D8; line-height:30px;background:#F7F7F7;color:#000; font-size:14px; font-weight:bold; padding-left:20px;height: 32px;line-height: 32px;}
+.pagemain dl dd{padding:10px;}
+.pagemain dl img{ float:right;}
+
+.applybox{ padding-top:5px;}
+.applybox li{ height:35px; line-height:35px; margin-top:10px;}
+.applybox li a{ font-size:16px; font-weight:bold;background:#fff3dc;text-align:center; border:1px solid #ffbd4a; color:#ff640f; display:block; }
+.applybox li a:hover{background:#fff6e7;border:1px solid #ffd495;}
+.imgbox{ margin-top:15px;}
+.imgbox img{ width:240px;}
+
+
+.joincontent{}
+.joincontent ul{}
+.joincontent ul li { height:80px; border:1px dashed #D0D0D0;}
+.joincontent ul li.spe{ margin:10px 0; border:none; height:40px; background:url(images/prod_arrow.gif) no-repeat  220px -120px;}
+.joincontent ul li .join{background: url("images/liucheng.jpg") no-repeat scroll -15px -30px transparent;float: left;height: 80px;width: 150px;margin-left:20px;}
+.joincontent ul li .join1{ background-position:-35px -30px; width:120px; margin-right:100px;}
+.joincontent ul li .join2{ background-position:-230px -30px; width:170px;margin-right:50px;}
+.joincontent ul li .join3{ background-position:-470px -30px; width:200px;margin-right:20px;}
+.joincontent ul li span{border-left: 1px solid #CCCCCC; line-height:80px; height:80px; display:block; padding-left:10px; float:left;}
+
+.aboutcontent{padding:10px 0;}
+.sider{ float:left; width:200px;}
+.sider h2{ text-align:center; line-height:40px;  font-weight:bold;font-size:14px;}
+.sider a{font-size:14px; display:block;}
+.sider .navbox{ background: url(images/siderbot_bg.png) no-repeat scroll left bottom transparent;overflow: hidden;padding-bottom: 143px;}
+.sider .bigul{ background: url(images/ul_bg.png) repeat-y scroll 0 0 #F0FBFD;border-top: 1px solid #CCEBF2;padding: 10px 0 0 33px;width: 168px;}
+.bigitem {background: url(images/sider_bg.png) no-repeat scroll right bottom transparent;display: block;font-size: 14px;line-height: 46px;padding: 2px 0 0 15px;width: 152px;}
+.sider a.selected {background: url(images/sider_arrow.png) no-repeat scroll left center transparent;color: #FF6600;font-weight: 700;padding-left: 10px;}
+.bigitem:hover{background-position: -351px -45px;}
+.bigul .current{margin-top: -2px;background-position: -184px -47px;}
+.current  a.bigtitle{color:#FF6600; font-weight: 700;}
+.smallul{border-bottom: 1px solid #CCEBF2;display: none;font-size: 12px;line-height: 1.5;margin-left: -15px;padding: 10px 0 10px 15px; display:block;}
+.smallul a {display: inline;line-height: 24px;padding-left: 10px;}
+.sider a:hover {text-decoration:underline;}
+
+.main{ float:right; width:750px; line-height:24px;}
+.main .maintitle{border-bottom: 3px double #9F9F9F;margin-bottom: 10px;}
+.maintitle h2{color: #000000;font-size: 20px;padding-bottom: 8px; font-weight:normal}
+.aboutbox{ padding:10px 0;}
+#applybox input,#applybox select{ height:21px; width:170px;background-color: #F7F7F7;border: 1px solid #CBCBCB;}
+#applybox textarea{ width:200px; height:50px;}
+#applybox tr{ height:32px; line-height:32px;}
+#applybox span{ color:#ff0000; padding-left:5px;}
+ 
+ 
+ .contactbox{padding:10px 0;}
+ .contactbox dt{ font-size:16px; font-weight:700; line-height:25px;}
+ 
+.jobbox .bold{ font-size:14px;}
+.jobbox .title{ font-size:14px;}
+.jobbox a:link, .jobbox a:visited{ color:#4476af;font-size:14px; font-weight:normal;}
+.jobbox a:hover {color:#ff5200;}
