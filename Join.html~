@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-    <title>联系我们--钱乐科技|POS收单,便利支付</title>
+    <title>商家接入--钱乐科技|POS收单,便利支付</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="Content-Language" content="zh-CN"/>
     <meta name="Keywords" content="POS收单,POS机申请,便利支付,POS刷卡,POS机,POS机接入,广州POS机,办理POS,便捷支付,POS支付"/>
@@ -10,8 +10,8 @@
     <script src="Scripts/jquery-1.4.4.min.js" type="text/javascript"></script>
     <script src="Scripts/tool.js" type="text/javascript"></script>
     
-    <link href="Content/show.css" rel="stylesheet" type="text/css"/>
-    
+<link href="Content/show.css" rel="stylesheet" type="text/css"/>
+
 </head>
 <body>
     <div id="wraper">
@@ -24,7 +24,7 @@
             
         </div>
         <div id="header">
-            <a href="#" class="logo"><img src="Content/images/logo2.jpg" alt="钱乐科技"></a>
+            <a href="#" class="logo"><img src="Content/images/logo2.jpg" alt="钱乐科技"/></a>
             <h2>便捷商务的选择</h2>
             <div class="service">
                 <p>客服热线<strong>400-0099-350</strong></p>
@@ -33,17 +33,17 @@
         </div>
         <div id="nav">
             <ul>
-                <li><a href="index.html" >首页</a></li>
+                <li><a href="Index.html" >首页</a></li>
                 <li class="navspe"></li>
                 <li><a href="Service.html" >产品服务</a></li>
                 <li class="navspe"></li>
-                <li><a href="Join.html" >商家接入</a></li>
+                <li><a href="Join.html" class=active>商家接入</a></li>
                 <li class="navspe"></li>
                 <li><a href="zhaoshang.html" >招商政策   </a></li>
                 <li class="navspe"></li>
                 <li><a href="Help.html" >帮助中心</a></li>
                 <li class="navspe"></li>
-                <li><a href="About.html" class=active>关于我们</a></li>
+                <li><a href="About.html" >关于我们</a></li>
                 <li class="navspe"></li>
             </ul>
             <dl>
@@ -54,72 +54,37 @@
             </dl>
         </div>
     
-<div class="aboutcontent">
-
-<div class="sider">
-        <div class="navbox">
-        <ul class="bigul">
-            <li class="bigitem">
-                <a class="bigtitle" href="About.html">关于钱乐</a>
-                <ul class="smallul">
-                    <li id="aboutinfo"><a href="About.html">公司简介</a></li>
-                    <li id="aboutcontact"><a href="Contact.html">联系我们</a></li>
-                    <li id="aboutjob"><a href="Job.html">人才招聘</a></li>
-                </ul>
-            </li>
-            <li class="bigitem">
-            <a class="bigtitle" href="Help.html">帮助中心</a>
-            <ul class="smallul">
-                    <li id="helpquestion"><a href="Help.html">常见问题</a></li>
-                    <li id="helpafterservice"><a href="AfterService.html">关于售后</a></li>
-                </ul>
-            </li>
-            <li class="bigitem">
-            <a class="bigtitle" href="JoinCondition.html">接入指南</a>
-            <ul class="smallul">
-                    <li id="Joincondition"><a href="JoinCondition.html">接入条件</a></li>
-                    <li id="joinusing"><a href="Using.html">操作步骤</a></li>
-                </ul>
-            </li>
-            <li class="bigitem"><a class="bigtitle" href="Apply.html">在线申请</a>
-            <ul class="smallul">
-                    
-                    <li id="applynow"><a href="Apply.html">立即申请</a></li>
+  <div class="content">
+        <div class="leftbox">
+            <img src="Content/images/join.jpg" alt="商家接入" style=" margin:15px 0;border:1px solid #E9E8E8;"/>
+            <div class="joincontent">
+                <ul>
+                    <li>
+                        <div class="join join1"></div><span>您可以通过电话或者在线申请等方式与我们取得联系，我们的专业顾问将问您解答疑问。</span>
+                    </li>
+                    <li class="spe"></li>
+                    <li>
+                        <div class="join join2"></div><span>您提供的资料通过审核后，我们将和您签署服务合同。</span>
+                    </li>
+                    <li class="spe"></li>
+                    <li>
+                        <div class="join join3"></div><span>我们的专业安装工程师将上门问您安装并进行简单的使用培训。</span>
+                    </li>
                     
                 </ul>
-            </li>
-        </ul>
+            </div>
         </div>
+        <div class="rightbox">
+            <ul class="applybox">
+                <li><a href="http://wpa.qq.com/msgrd?v=3&uin=1985362143&site=qq&menu=yes">免费咨询</a></li>
+                <li><a href="Apply.html">在线申请</a></li>
+            </ul>
+            <div class="imgbox">
+                <img src="Content/images/ad_right.jpg" alt=""/>
+            </div>
+        </div>
+        <div style=" clear:both"></div>
     </div>
-
-    <script type="text/javascript">
-
-        $().ready(function () {
-            var selectitem = 'aboutcontact';
-
-            $('#navbox a').removeClass('selected');
-            $('.smallul').hide();
-
-            var selected = $('#' + selectitem);
-
-            $('a', selected).addClass('selected');
-            selected.parent().show();
-            selected.parent().parent().addClass('current');
-        });
-    </script>    <div class="main">
-        <img style=" border:1px solid #D9D9D9; width:748px;" src="Content/images/contact.png" />
-	     <div class="contactbox">
-         <dl>
-            <dt>钱乐科技(广州钱乐信息科技有限公司)</dt>
-            <dd>地址: 中国广州天河区龙洞龙迎路260号</dd>
-            <dd>电话: 400-0099-350</dd>
-            <dd>邮编：510520</dd>
-            <dd>邮箱：help@moneyle.com</dd>
-        </dl>
-    </div>
-    </div>
-    <div class="clear"></div>
-</div>
 
 
 
@@ -155,12 +120,13 @@
                 <div class="clear"></div>
    </div>
    <div class="copyright">
-<p>Copyright ©   2012 广州钱乐信息科技有限公司(钱乐科技-Moneyle.com)版权所有</p>
+    <p>Copyright ©   2012 广州钱乐信息科技有限公司(钱乐科技-Moneyle.com)版权所有</p>
   </div>
     </div>
   <div id="online_service">
 			<a id="close_online_service" href="#">×</a>
-</div
+</div>
 
-></body>
+
+</body>
 </html>
